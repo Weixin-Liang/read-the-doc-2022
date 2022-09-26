@@ -21,9 +21,15 @@ Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Represen
 .. |Made withJupyter| image:: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
    :target: https://jupyter.org/try
 
-Welcome! This is the project website of our paper: `Mind the Gap:
-Understanding the Modality Gap in Multi-modal Contrastive Representation
-Learning <https://arxiv.org/abs/2203.02053>`__ (Under Review). `[PDF] <https://arxiv.org/pdf/2203.02053.pdf>`__
+Welcome! This is the project website of our paper: 
+
+   | `Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning <https://openreview.net/forum?id=S7Evzt9uit3>`__ 
+   | Weixin Liang*, Yuhui Zhang*, Yongchan Kwon*, Serena Yeung, James Zou
+   | NeurIPS (2022) 
+   | `[PDF] <https://arxiv.org/pdf/2203.02053.pdf>`__ `[Website] <https://modalitygap.readthedocs.io/>`__ `[Twitter] <https://twitter.com/james_y_zou/status/1503370841957933056>`__ `[Github] <https://github.com/Weixin-Liang/Modality-Gap>`__ 
+
+
+
 
 
 
@@ -51,7 +57,7 @@ zero-shot classification performance and fairness.*
 **TL;DR:** We present modality gap, an intriguing geometric phenomenon
 of the representation space of multi-modal models.
 
-.. image:: https://user-images.githubusercontent.com/32794044/179121836-b3bcfa08-4679-4875-8641-08a0c48c326b.png
+.. image:: https://user-images.githubusercontent.com/32794044/192175707-93b48fd3-ef06-465e-a43b-ff6a82503a66.png
     :alt: my-picture1
 
 What is `Modality Gap`?
@@ -249,17 +255,17 @@ Submission)*. :
 
 .. code-block:: bibtex
 
-   @Article{
-     ModalityGap2022,
-     title     = {Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning},
-     author    = {Weixin Liang and 
-                  Yuhui Zhang and 
-                  Yongchan Kwon and 
-                  Serena Yeung and 
+   @InProceedings{
+     ModalityGap,
+     title={Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning},
+     author    = {Weixin Liang and
+                  Yuhui Zhang and
+                  Yongchan Kwon and
+                  Serena Yeung and
                   James Zou},
-     journal   = {arXiv preprint arXiv:2203.02053},
-     url       = {https://arxiv.org/abs/2203.02053},
-     year      = {2022}
+     booktitle={NeurIPS},
+     year={2022},
+     url={https://openreview.net/forum?id=S7Evzt9uit3}
    }
 
 
